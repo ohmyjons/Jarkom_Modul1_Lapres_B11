@@ -24,4 +24,8 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+
+
 ## Jawaban
+
+2. Masukan kode `http.request.method ==’’GET’’` ke filter di wireshark 
