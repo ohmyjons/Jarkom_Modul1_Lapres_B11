@@ -34,3 +34,6 @@ lalu di export http pada paket tersebut di .
 ![Gambar 2.2](img/2_2.png)
 setelah di export save dan buka filenya. hasil =
 ![DPR](img/2_dpr.jpg)
+
+4. Masukkan `http.authbasic` di filter wireshark. hasil :
+![Gambar 4.1](img/4_1.png)
