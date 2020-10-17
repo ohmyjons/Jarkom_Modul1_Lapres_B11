@@ -30,3 +30,7 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 
 2. Masukan kode `http.request.method =="GET"` ke filter di wireshark
 ![Gambar 2.1](img/2_1.png)
+lalu di export http pada paket tersebut di .
+![Gambar 2.2](img/2_2.png)
+setelah di export save dan buka filenya. hasil =
+![DPR](img/2_dpr.jpg)
