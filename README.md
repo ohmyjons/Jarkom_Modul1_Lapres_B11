@@ -28,4 +28,5 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 
 ## Jawaban
 
-2. Masukan kode `http.request.method =="GET"` ke filter di wireshark 
+2. Masukan kode `http.request.method =="GET"` ke filter di wireshark
+![Gambar 2.1](images/2_1.png)
