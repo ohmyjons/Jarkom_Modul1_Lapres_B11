@@ -52,6 +52,16 @@ untuk menemukna pass nya tinggal cari juga dengan ctrl+f lalu ketik .txt
 Hasil export :
 ![gambar](img/6_3.png)
 
+7. Untuk mencari file tersebut yang dilakukan pertama yaitu input `ftp-data containes "yes.pdf"`
+hasil :
+![gambar 7.1](img/7_1.png)
+lalu klik kanan dan follow akan keluar seperti ini = 
+![gambar 7.2](img/7_2.png)
+
+llau ke tcp stream -> raw dan save as saja, lalu buka file akan keluar hasil seperti berikut =
+![gambar 7.3](img/7_3.png)
+
+
 
 11. tinggal input `src port 21`
 hasil sebagai berikut =
