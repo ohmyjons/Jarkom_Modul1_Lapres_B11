@@ -42,22 +42,22 @@ setelah di export save dan buka filenya. hasil =
 ![Gambar 4.1](img/4_1.png)
 
 5. untuk mencari username dan password aku.pengen.pw dapat dicari dengan memasukkan `http.host.contains "aku.pengen.pw"`
-![gambar 5.1](img/5_1.png).
+![gambar 5.1](img/5_1.png)
 
 
 6. Gunakan `ftp-data` lalu menggunakan ctrl+f untuk mencari file .zip nya
-![gambar](img/6_1.png).
+![gambar](img/6_1.png)
 untuk menemukna pass nya tinggal cari juga dengan ctrl+f lalu ketik .txt
-![gambar](img/6_2.png).
+![gambar](img/6_2.png)
 Hasil export :
-![gambar](img/6_3.png).
+![gambar](img/6_3.png)
 
 
 11. tinggal input `src port 21`
-![gambar 11](img/11_1.png).
+![gambar 11](img/11_1.png)
 
 13. tinggal input `dst port 443`
-![gambar 13](img/13_1.png).
+![gambar 13](img/13_1.png)
 
 15. tinggal input `dst host monta.if.its.ac.id`
-![gambar 15](img/15_1.png).
+![gambar 15](img/15_1.png)
