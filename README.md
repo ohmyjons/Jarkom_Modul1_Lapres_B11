@@ -37,3 +37,10 @@ setelah di export save dan buka filenya. hasil =
 
 4. Masukkan `http.authbasic` di filter wireshark. hasil :
 ![Gambar 4.1](img/4_1.png)
+
+6. Gunakan "ftp-data" lalu menggunakan ctrl+f untuk mencari file .zip nya
+![gambar](img/6_1.png).
+untuk menemukna pass nya tinggal cari juga dengan ctrl+f lalu ketik .txt
+![gambar](img/6_2.png).
+Hasil export :
+![gambar](img/6_3.png).
