@@ -54,10 +54,13 @@ Hasil export :
 
 
 11. tinggal input `src port 21`
+hasil sebagai berikut =
 ![gambar 11](img/11_1.png)
 
 13. tinggal input `dst port 443`
+hasil sebagai berikut =
 ![gambar 13](img/13_1.png)
 
 15. tinggal input `dst host monta.if.its.ac.id`
+hasil sebagai berikut =
 ![gambar 15](img/15_1.png)
