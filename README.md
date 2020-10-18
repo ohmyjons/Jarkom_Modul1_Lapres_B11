@@ -46,7 +46,7 @@ setelah di export save dan buka filenya. hasil =
 4. Masukkan `http.authbasic` di filter wireshark. hasil :<br>
 ![Gambar 4.1](img/4_1.png)<br>
 
-5. untuk mencari username dan password aku.pengen.pw dapat dicari dengan memasukkan `http.host.contains "aku.pengen.pw"` <br>
+5. untuk mencari username dan password aku.pengen.pw dapat dicari dengan memasukkan `http.host.contains "aku.pengen.pw"`. <br>
 ![gambar 5.1](img/5_1.png)
 
 
