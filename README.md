@@ -62,29 +62,29 @@ hasil :
 ![gambar 7.1](img/7_1.png) <br>
 lalu klik kanan dan follow akan keluar seperti ini = <br> 
 ![gambar 7.2](img/7_2.png)
-
-llau ke tcp stream -> raw dan save as saja, lalu buka file akan keluar hasil seperti berikut =
+<br>
+lalu ke tcp stream -> raw dan save as saja, lalu buka file akan keluar hasil seperti berikut =
 ![gambar 7.3](img/7_3.png)
 
-8. Masukkan kode `tcp.request.command == "RETR"` lalu dicek satu2 dan klik kanan follow
-![Gambar 8.1](img/8_1.jpg)
-dari gambar di atas dapat dilihat terdapat microsoft ftp service. dan kita juga tealh mendapat IP nya yaitu `198.246.117.106`.
-untuk mendapatkan yang hanya berasal dari mictosoft FPT berarti masukkan kode `tcp.request.command == "RETR" && ip.dst == 198.246.117.106 `
-![Gambar 8.2](img/8_2.jpg)
+8. Masukkan kode `tcp.request.command == "RETR"` lalu dicek satu2 dan klik kanan follow <br>
+![Gambar 8.1](img/8_1.jpg) <br>
+dari gambar di atas dapat dilihat terdapat microsoft ftp service. dan kita juga telah mendapat IP nya yaitu `198.246.117.106`.
+untuk mendapatkan yang hanya berasal dari mictosoft FPT berarti masukkan kode `tcp.request.command == "RETR" && ip.dst == 198.246.117.106 ` <br>
+![Gambar 8.2](img/8_2.jpg)<br>
 
-9. Masukkan kode `ftp.request.command == USER` untuk mengetahui USERNAMEnya. Berikut hasilnya :
-![Gambar 9.1](img/9_1.jpg)
+9. Masukkan kode `ftp.request.command == USER` untuk mengetahui USERNAMEnya. Berikut hasilnya :<br>
+![Gambar 9.1](img/9_1.jpg) <br>
 
-Untuk mengetahui pasnya tigal diganti menjadi `ftp.request.command == PASS`. Berikut hasilnya :
+Untuk mengetahui pasnya tigal diganti menjadi `ftp.request.command == PASS`. Berikut hasilnya :<br>
 ![Gambar 9.2](img/9_2.jpg)
 
 10. Inputkan kode `frame contains ".pdf"` 
     Hasilnya :
-    ![Gambar 10.1](img/10_1.jpg)
+    ![Gambar 10.1](img/10_1.png)
     lalu klik kanan follow->tcp stream-> ubah ASCII ke RAW dan save as :
-    ![Gambar 10.2](img/10_2.jpg)
+    ![Gambar 10.2](img/10_2.png)
     Hasil PDF :
-    ![Gambar 10.3](img/10_3.jpg)
+    ![Gambar 10.3](img/10_3.png)
 
 11. tinggal input `src port 21`
 hasil sebagai berikut =
