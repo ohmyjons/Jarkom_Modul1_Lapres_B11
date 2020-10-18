@@ -59,8 +59,8 @@ Hasil export :
 
 7. Untuk mencari file tersebut yang dilakukan pertama yaitu input `ftp-data containes "yes.pdf"`
 hasil :
-![gambar 7.1](img/7_1.png)
-lalu klik kanan dan follow akan keluar seperti ini = 
+![gambar 7.1](img/7_1.png) <br>
+lalu klik kanan dan follow akan keluar seperti ini = <br> 
 ![gambar 7.2](img/7_2.png)
 
 llau ke tcp stream -> raw dan save as saja, lalu buka file akan keluar hasil seperti berikut =
