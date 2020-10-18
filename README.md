@@ -28,8 +28,8 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 
 ## Jawaban
 1. Untuk mngetahui web server yang digunakan pada "testing.mekanisme.me" adalh masukkan kode `http.stream.host contains "testing.mekanisme.me"` Hasil :<br>
-![Gambar 1.1](img/1_1.png)<br>
-Lalu klik kanan follow tcp stream maka akna terlihat seperti berikut :<br>
+![Gambar 1.1](img/1_1.png<br>
+Lalu klik kanan follow tcp stream maka akan terlihat seperti berikut :<br>
 ![Gambar 1.2](img/1_2.png)<br>
 lalu dapat dilihat bahwa web server yang digunakan adalah nginx<br>
 
