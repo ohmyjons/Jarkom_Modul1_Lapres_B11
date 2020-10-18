@@ -27,24 +27,24 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 
 
 ## Jawaban
-1. Untuk mngetahui web server yang digunakan pada "testing.mekanisme.me" adalh masukkan kode `http.stream.host contains "testing.mekanisme.me"` Hasil :
-![Gambar 1.1](img/1_1.png)
-Lalu klik kanan follow tcp stream maka akna terlihat seperti berikut :
-![Gambar 1.2](img/1_2.png)
-lalu dapat dilihat bahwa web server yang digunakan adalah nginx
+1. Untuk mngetahui web server yang digunakan pada "testing.mekanisme.me" adalh masukkan kode `http.stream.host contains "testing.mekanisme.me"` Hasil :<br>
+![Gambar 1.1](img/1_1.png)<br>
+Lalu klik kanan follow tcp stream maka akna terlihat seperti berikut :<br>
+![Gambar 1.2](img/1_2.png)<br>
+lalu dapat dilihat bahwa web server yang digunakan adalah nginx<br>
 
 2. Masukan kode `http.request.method =="GET"` ke filter di wireshark
-![Gambar 2.1](img/2_1.png)
-lalu di export http pada paket tersebut di .
+![Gambar 2.1](img/2_1.png)<br>
+lalu di export http pada paket tersebut di <br>
 ![Gambar 2.2](img/2_2.png)
 setelah di export save dan buka filenya. hasil =
-![DPR](img/2_dpr.jpg)
+![DPR](img/2_dpr.jpg)<br>
 
-3. Unutk tahu username dan password ketika logind apat dicari dengan memasukkan `http.request.methid == POST`
-![Gambar 3.1](img/3_1.png)
+3. Unutk tahu username dan password ketika logind apat dicari dengan memasukkan `http.request.methid == POST`<br>
+![Gambar 3.1](img/3_1.png)<br>
 
-4. Masukkan `http.authbasic` di filter wireshark. hasil :
-![Gambar 4.1](img/4_1.png)
+4. Masukkan `http.authbasic` di filter wireshark. hasil :<br>
+![Gambar 4.1](img/4_1.png)<br>
 
 5. untuk mencari username dan password aku.pengen.pw dapat dicari dengan memasukkan `http.host.contains "aku.pengen.pw"`
 ![gambar 5.1](img/5_1.png)
@@ -72,14 +72,37 @@ dari gambar di atas dapat dilihat terdapat microsoft ftp service. dan kita juga 
 untuk mendapatkan yang hanya berasal dari mictosoft FPT berarti masukkan kode `tcp.request.command == "RETR" && ip.dst == 198.246.117.106 `
 ![Gambar 8.2](img/8_2.jpg)
 
+9. Masukkan kode `ftp.request.command == USER` untuk mengetahui USERNAMEnya. Berikut hasilnya :
+![Gambar 9.1](img/9_1.jpg)
+
+Untuk mengetahui pasnya tigal diganti menjadi `ftp.request.command == PASS`. Berikut hasilnya :
+![Gambar 9.2](img/9_2.jpg)
+
+10. Inputkan kode `frame contains ".pdf"` 
+    Hasilnya :
+    ![Gambar 10.1](img/10_1.jpg)
+    lalu klik kanan follow->tcp stream-> ubah ASCII ke RAW dan save as :
+    ![Gambar 10.2](img/10_2.jpg)
+    Hasil PDF :
+    ![Gambar 10.3](img/10_3.jpg)
 
 11. tinggal input `src port 21`
 hasil sebagai berikut =
 ![gambar 11](img/11_1.png)
 
+12. Masukkan ke capture wireshark `src port 80`
+![gambar 12.1](img/12_1.png)
+![gambar 12.2](img/12_2.png)
+
+
 13. tinggal input `dst port 443`
 hasil sebagai berikut =
 ![gambar 13](img/13_1.png)
+
+14. Masukkan ke capture wireshark `src host 192.168.43.243`
+![gambar 14.1](img/14_1.png)
+![gambar 14.2](img/14_2.png)
+
 
 15. tinggal input `dst host monta.if.its.ac.id`
 hasil sebagai berikut =
