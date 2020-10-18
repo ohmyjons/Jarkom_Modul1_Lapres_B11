@@ -35,7 +35,7 @@ lalu dapat dilihat bahwa web server yang digunakan adalah nginx<br>
 
 2. Masukan kode `http.request.method =="GET"` ke filter di wireshark
 ![Gambar 2.1](img/2_1.png)<br>
-lalu di export http pada paket tersebut di <br>
+lalu di export http pada paket tersebut<br>
 ![Gambar 2.2](img/2_2.png)
 setelah di export save dan buka filenya. hasil =
 ![DPR](img/2_dpr.jpg)<br>
@@ -46,7 +46,7 @@ setelah di export save dan buka filenya. hasil =
 4. Masukkan `http.authbasic` di filter wireshark. hasil :<br>
 ![Gambar 4.1](img/4_1.png)<br>
 
-5. untuk mencari username dan password aku.pengen.pw dapat dicari dengan memasukkan `http.host.contains "aku.pengen.pw"`
+5. untuk mencari username dan password aku.pengen.pw dapat dicari dengan memasukkan `http.host.contains "aku.pengen.pw"` <br>
 ![gambar 5.1](img/5_1.png)
 
 
