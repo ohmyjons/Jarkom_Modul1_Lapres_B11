@@ -32,6 +32,7 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 Lalu klik kanan follow tcp stream maka akan terlihat seperti berikut :<br>
 ![Gambar 1.2](img/1_2.png)<br>
 lalu dapat dilihat bahwa web server yang digunakan adalah nginx<br>
+---
 
 2. Masukan kode `http.request.method =="GET"` ke filter di wireshark
 ![Gambar 2.1](img/2_1.png)<br>
@@ -40,9 +41,9 @@ lalu di export http pada paket tersebut<br>
 setelah di export save dan buka filenya. hasil =
 ![DPR](img/2_dpr.jpg)<br>
 
-3. Unutk tahu username dan password ketika logind apat dicari dengan memasukkan `http.request.methid == POST`<br>
+3. Untuk tahu username dan password ketika logind apat dicari dengan memasukkan `http.request.methid == POST`<br>
 ![Gambar 3.1](img/3_1.png)<br>
-
+---
 4. Masukkan `http.authbasic` di filter wireshark. hasil :<br>
 ![Gambar 4.1](img/4_1.png)<br>
 
