@@ -61,8 +61,7 @@ Hasil export :
 hasil :
 ![gambar 7.1](img/7_1.png) <br>
 lalu klik kanan dan follow akan keluar seperti ini = <br> 
-![gambar 7.2](img/7_2.png)
-<br>
+![gambar 7.2](img/7_2.png) <br>
 lalu ke tcp stream -> raw dan save as saja, lalu buka file akan keluar hasil seperti berikut =
 ![gambar 7.3](img/7_3.png)
 
