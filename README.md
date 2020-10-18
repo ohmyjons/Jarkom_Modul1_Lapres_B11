@@ -27,6 +27,11 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 
 
 ## Jawaban
+1. Untuk mngetahui web server yang digunakan pada "testing.mekanisme.me" adalh masukkan kode `http.stream.host contains "testing.mekanisme.me"` Hasil :
+![Gambar 1.1](img/1_1.png)
+Lalu klik kanan follow tcp stream maka akna terlihat seperti berikut :
+![Gambar 1.2](img/1_2.png)
+lalu dapat dilihat bahwa web server yang digunakan adalah nginx
 
 2. Masukan kode `http.request.method =="GET"` ke filter di wireshark
 ![Gambar 2.1](img/2_1.png)
@@ -61,6 +66,11 @@ lalu klik kanan dan follow akan keluar seperti ini =
 llau ke tcp stream -> raw dan save as saja, lalu buka file akan keluar hasil seperti berikut =
 ![gambar 7.3](img/7_3.png)
 
+8. Masukkan kode `tcp.request.command == "RETR"` lalu dicek satu2 dan klik kanan follow
+![Gambar 8.1](img/8_1.jpg)
+dari gambar di atas dapat dilihat terdapat microsoft ftp service. dan kita juga tealh mendapat IP nya yaitu `198.246.117.106`.
+untuk mendapatkan yang hanya berasal dari mictosoft FPT berarti masukkan kode `tcp.request.command == "RETR" && ip.dst == 198.246.117.106 `
+![Gambar 8.2](img/8_2.jpg)
 
 
 11. tinggal input `src port 21`
